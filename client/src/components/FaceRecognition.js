@@ -23,7 +23,7 @@ const FaceRecognition = () => {
         if (!isLoaded) return
 
         const getUserMedia = async () => {
-            const image = await faceapi.fetchImage('image2.jpg')
+            const image = await faceapi.fetchImage('image.jpg')
             const results = await faceapi.detectAllFaces(image).withFaceLandmarks().withFaceExpressions().withFaceDescriptors()
             const faceMatch = new faceapi.FaceMatcher(results, 0.6)
             setFaceMatcher(faceMatch)
