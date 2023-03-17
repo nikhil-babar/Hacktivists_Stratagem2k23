@@ -1,0 +1,13 @@
+.face-container{
+    position: relative;
+}
+
+#webcam{
+    width: 600px;
+    height: 432px;
+    position: relative;
+}
+
+#face-canvas{
+    position: absolute;
+}
