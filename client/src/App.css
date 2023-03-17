@@ -1,14 +1,21 @@
+* {
+  box-sizing: border-box;
 body{
   padding: 0;
   margin: 0;
 }
 
-.App{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+button {
+  margin: 5px 10px;
 }
 
-
+.login-outer {
+  padding: 5vw;
+  margin: 5% 20%;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(69, 0, 69)
+  );
+}
